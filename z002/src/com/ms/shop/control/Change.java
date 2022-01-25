@@ -7,9 +7,8 @@ import com.ms.shop.data.Goods;
 
 public class Change {
 	
-	Scanner scan = new Scanner(System.in);
-	
-	public void c(ArrayList<Goods> goods) {
+	public static void c(ArrayList<Goods> goods) {
+		Scanner scan = new Scanner(System.in);
 		
 		boolean run = true;
 		while(run) {

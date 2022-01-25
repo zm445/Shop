@@ -6,9 +6,9 @@ import com.ms.shop.data.Goods;
 
 public class Add {
 	
-	Scanner scan = new Scanner(System.in);
 	
-	public Goods add() {
+	public static Goods add() {
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("[추가]상품 이름 입력: ");
 		String n = scan.next();

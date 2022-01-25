@@ -7,9 +7,9 @@ import com.ms.shop.data.Goods;
 
 public class Del {
 	
-	Scanner scan = new Scanner(System.in);
 	
-	public int D(ArrayList<Goods> goods) {
+	public static int D(ArrayList<Goods> goods) {
+		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("삭제할 상품 이름 입력: ");
 		String n = scan.next();
@@ -20,6 +20,7 @@ public class Del {
 				idx = i;
 			}
 		}
+		
 		
 		return idx;
 	}
